@@ -1,4 +1,4 @@
-BootStrap: docker
+Bootstrap: docker
 From: ubuntu:16.04
 % labels
   R_Version 3.4.3
@@ -39,6 +39,7 @@ From: ubuntu:16.04
     libcurl4-openssl-dev \
     libssl-dev \
     libxml2-dev \
+    wget \
 
   # Clean up
   rm -rf /var/lib/apt/lists/*
