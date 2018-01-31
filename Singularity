@@ -43,8 +43,6 @@ From: ubuntu:16.04
     libssl-dev \
     libxml2-dev \
 
-  # test install of packages
-    R --slave -e 'install.packages(c("ape","data.table","fmsb","gplots","grImport","RCurl","reutils","seqinr","codetools"), repos = "http://cran.us.r-project.org")'
 
   # Clean up
   rm -rf /var/lib/apt/lists/*
