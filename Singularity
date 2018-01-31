@@ -22,7 +22,8 @@ From: ubuntu:16.04
   apt-get update
   apt-get install -y --no-install-recommends \
     locales \
-    wget
+    wget \
+    libmariadb-client-lgpl-dev
 
   # Configure default locale
   echo "en_US.UTF-8 UTF-8" >> /etc/locale.gen
